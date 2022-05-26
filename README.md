@@ -16,10 +16,13 @@ Footnotes are inserted at the bottom of the text under a header. Each footnote h
 
 ## CSS Styling
 
-Footnote link: a[aria-describedby="footnote-header"]
-Footnote list header: #footnote-header
-Footnote list: #footnote-list
-Footnote list item: #footnote-list > li
+The links deliberately have no spaces around them, as these can be added using CSS.
+
+- Footnote body link: **a[aria-describedby="footnote-header"]**
+- Footnote list header: **#footnote-header**
+- Footnote list: **#footnote-list**
+- Footnote list item: **#footnote-list > li**
+- Footnote Return link: **footnote-return-link**
 
 ## Installation
 
