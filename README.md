@@ -1,10 +1,10 @@
-# Traditional Footnotes Plugin for TinMCE 6
+# Traditional Footnotes Plugin for TinyMCE 6
 
 Creates accessible footnotes at the bottom of the body of text.
 
 Footnotes are inserted at the bottom of the text under a header. Each footnote has a link to it in the body of the text and a link to return to its link in the body.
 
-## HTML Produced
+## Example HTML Output
 
 ```html
 <p>Hello, World!<a id="footnote-ref-1" href="#footnote-1" aria-describedby="footnote-header">[1]</a></p>
